@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Fidji32",
-  title: "Salut, je suis Matthis",
+  title: "Bonjour, je suis Matthis",
   subTitle: emoji(
-    "Un pationné d'informatique 🚀 ayant de l'expérience dans le réseau et le déploiement d'application avec Cisco / Docker / Kubernetes / Cloud et quelques autres outils pertinents. De plus, j'ai de solides connaissances en développement avec l'utilisation de Python et PHP."
+    "Un passionné d'informatique 🚀 ayant de l'expérience dans le réseau et le déploiement d'application avec Cisco / Docker / Kubernetes / Cloud et quelques autres outils pertinents. De plus, j'ai de solides connaissances en développement avec l'utilisation de Python et PHP."
   ),
   resumeLink:
     "https://drive.google.com/drive/folders/1b_yois-8xfLSV0dokhJSdtL2XNwLT_l2?usp=sharing", // Set to empty to hide the button
@@ -112,7 +112,7 @@ const educationInfo = {
       schoolName: "Université Toulouse III - Paul Sabatier",
       logo: require("./assets/images/paul-sabatier-logo.jpg"),
       subHeader: "Bachelor en informatique",
-      duration: "Spécialié déploiement d’applications communicantes et sécurisées",
+      duration: "Spécialité déploiement d’applications communicantes et sécurisées",
       desc: "2021 - 2024",
       descBullets: ["Classé 4ème IUT informatique de France (Thotis)."]
     },
@@ -120,7 +120,7 @@ const educationInfo = {
       schoolName: "Lycée Polyvalent Le Garros",
       logo: require("./assets/images/le-garros.jpg"),
       subHeader: "Baccalauréat général",
-      duration: "Spécialié Mathématiques, physique-chimie et SVT",
+      duration: "Spécialité Mathématiques, physique-chimie et SVT",
       desc: "2020 - 2021",
     }
   ]
@@ -327,7 +327,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contactez-moi ☎️"),
   subtitle:
-    "Discuter d'un projet ou simplement dire bonjour ? Ma boîte de réception est ouverte à tous.",
+    "Discuter d'un projet ou simplement besoin de me contacter ? Ma boîte de réception est ouverte à tous.",
   number: "06 45 13 62 41",
   email_address: "matthis.vandevyver@outlook.fr"
 };
