@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Fidji32",
-  title: "Bonjour, je suis Matthis",
+  title: "Matthis VAN DE VYVER",
   subTitle: emoji(
     "Un passionné d'informatique 🚀 ayant de l'expérience dans le réseau et le déploiement d'application avec Cisco / Docker / Kubernetes / Cloud et quelques autres outils pertinents. De plus, j'ai de solides connaissances en développement avec l'utilisation de Python et PHP."
   ),
