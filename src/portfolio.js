@@ -177,23 +177,75 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projets importants",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Compétences",
+  subtitle: "Voici les compétences acquises lors de mon bachelor en informatique (Bac+3)",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/c1.png"),
+      projectName: "Trisomie-21-Haute-Garonne",
+      projectDesc: "Développement d'une application de A à Z en suivant les demandes des clients afin de numériser le système d'économie de jeton permettant de suivre des enfants atteint de la maladie au cours de leur quotidien",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Voir le projet",
+          url: "https://github.com/Fidji32/Trisomie_21_Haute_Garonne"
+        },
+        {
+          name: "Autre projet",
+          url: "https://github.com/Fidji32/Projet_API"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/c2.png"),
+      projectName: "Problème du voyageur de commerce",
+      projectDesc: "Résolution du problème du voyageur de commerce à l'aide d'un algorithme de génétique afin de se rapprocher de solution presque parfaite",
+      footerLink: [
+        {
+          name: "Voir le projet (A faire)",
+          url: "http://nextu.se/"
+        },
+        {
+          name: "Autre projet (A faire)",
+          url: "https://github.com/Fidji32/Projet_API"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/c3.png"),
+      projectName: "Infrastructure réseau multisite",
+      projectDesc: "Création et optimisation d'une infrastructure réseau pour une association (fictive) en respectant certaines contraintes comme la distance entre les différents sites ou bien encore la quantité de matériels fournis",
+      footerLink: [
+        {
+          name: "Voir le projet",
+          url: "https://github.com/Fidji32/Multisite_network_infrastructure"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/c4.png"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/c5.png"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/c6.png"),
       projectName: "Nextu",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -204,7 +256,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -220,7 +272,7 @@ const achievementSection = {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/c1.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -241,7 +293,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/c2.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -254,7 +306,21 @@ const achievementSection = {
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/c3.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        { name: "Certification", url: "" },
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
+    },
+
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/c3.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         { name: "Certification", url: "" },

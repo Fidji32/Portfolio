@@ -10,7 +10,8 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  bigProjects
 } from "../../portfolio";
 
 function Header() {
@@ -18,6 +19,7 @@ function Header() {
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
+  const viewBigProjects = bigProjects.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
@@ -41,7 +43,7 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Compétences</a>
+              <a href="#skills">Domaines d'expertise</a>
             </li>
           )}
           {viewExperience && (
@@ -52,6 +54,11 @@ function Header() {
           {viewOpenSource && (
             <li>
               <a href="#opensource">Projets Github</a>
+            </li>
+          )}
+          {viewBigProjects && (
+            <li>
+              <a href="#projects">Compétences</a>
             </li>
           )}
           {viewAchievement && (
