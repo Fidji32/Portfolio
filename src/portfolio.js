@@ -178,12 +178,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Compétences",
-  subtitle: "Voici les compétences acquises lors de mon bachelor en informatique (Bac+3)",
+  subtitle: "Voici les compétences acquises lors de mon bachelor en informatique (Bac+3) avec des exemples justifiant du niveau atteint",
   projects: [
     {
       image: require("./assets/images/c1.png"),
       projectName: "Trisomie-21-Haute-Garonne",
-      projectDesc: "Développement d'une application de A à Z en suivant les demandes des clients afin de numériser le système d'économie de jeton permettant de suivre des enfants atteint de la maladie au cours de leur quotidien",
+      projectDesc: "Développement d'une application de A à Z en suivant les demandes des clients afin de numériser le système d'économie de jeton permettant de suivre des enfants atteint de la maladie (trisomie 21) au cours de leur quotidien",
       footerLink: [
         {
           name: "Voir le projet",
@@ -202,12 +202,8 @@ const bigProjects = {
       projectDesc: "Résolution du problème du voyageur de commerce à l'aide d'un algorithme de génétique afin de se rapprocher de solution presque parfaite",
       footerLink: [
         {
-          name: "Voir le projet (A faire)",
-          url: "http://nextu.se/"
-        },
-        {
-          name: "Autre projet (A faire)",
-          url: "https://github.com/Fidji32/Projet_API"
+          name: "Voir le projet",
+          url: "https://github.com/Fidji32/Traveling_salesman_problem"
         }
       ]
     },
@@ -224,34 +220,42 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/c4.png"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Trisomie-21-Haute-Garonne",
+      projectDesc: "Création et optimisation d'une base de données pour le fonctionnement d'une application web utilisat le système d'économie de jeton permettant de suivre des enfants atteint de la maladie (trisomie 21) au cours de leur quotidien",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Voir le projet",
+          url: "https://github.com/Fidji32/Trisomie_21_Haute_Garonne"
         }
       ]
     },
     {
       image: require("./assets/images/c5.png"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Trisomie-21-Haute-Garonne",
+      projectDesc: "Recueil et exploitation des besoins clients pour mettre en place une solution répondant à ces derniers avec l'utilisation des méthodes agiles",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Voir le projet",
+          url: "https://github.com/Fidji32/Trisomie_21_Haute_Garonne"
+        },
+        {
+          name: "Autre projet",
+          url: "https://github.com/Fidji32/Multisite_network_infrastructure"
         }
       ]
     },
     {
       image: require("./assets/images/c6.png"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Trisomie-21-Haute-Garonne",
+      projectDesc: "Collaboration avec une équipe de 3 autre étudiants avec pour but de réaliser une application répondant aux besoins de l'association (Trisomie-21-Hate-Garonne)",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Voir le projet",
+          url: "https://github.com/Fidji32/Trisomie_21_Haute_Garonne"
+        },
+        {
+          name: "Autre projet",
+          url: "https://github.com/Fidji32/Multisite_network_infrastructure"
         }
       ]
     }
